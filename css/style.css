@@ -1180,3 +1180,79 @@ header {
           margin-top: 25px; } }
       #inquire > .wr > .btn:hover {
         background-color: #d51f26; }
+
+#platform {
+  position: relative;
+  padding: 100px 0; }
+  #platform > .wr > h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    margin-bottom: 10px; }
+  #platform > .wr > h3 {
+    text-align: center;
+    margin-top: 0; }
+  #platform > .wr > .items {
+    margin-top: 65px;
+    position: relative; }
+    @media (max-width: 768px) {
+      #platform > .wr > .items {
+        padding-left: 35px; } }
+    #platform > .wr > .items > .row {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin-bottom: 50px; }
+      @media (max-width: 768px) {
+        #platform > .wr > .items > .row {
+          display: block; } }
+      #platform > .wr > .items > .row:nth-child(even) {
+        flex-direction: row-reverse; }
+      #platform > .wr > .items > .row > .col {
+        flex: 1;
+        padding: 0 30px; }
+        #platform > .wr > .items > .row > .col img {
+          max-width: 100%; }
+        #platform > .wr > .items > .row > .col h4 {
+          font-size: 15px; }
+        #platform > .wr > .items > .row > .col .text {
+          font-size: 13px;
+          line-height: 1.7; }
+        #platform > .wr > .items > .row > .col .icons {
+          margin-top: 35px;
+          display: flex;
+          flex-wrap: wrap;
+          align-items: center;
+          opacity: 0.5; }
+          #platform > .wr > .items > .row > .col .icons img {
+            max-width: 100%;
+            margin-right: 15px; }
+            #platform > .wr > .items > .row > .col .icons img:last-child {
+              margin-right: 0; }
+    #platform > .wr > .items > .red-dot {
+      position: absolute;
+      width: 1px;
+      height: 100%;
+      background: #b7b7b7;
+      left: 50%;
+      top: 0; }
+      @media (max-width: 768px) {
+        #platform > .wr > .items > .red-dot {
+          left: 20px; } }
+      #platform > .wr > .items > .red-dot > .cont {
+        position: absolute;
+        width: 33px;
+        height: 33px;
+        left: -17px;
+        top: -5px;
+        border-radius: 50%;
+        border: 1px solid #b7b7b7;
+        background: white; }
+      #platform > .wr > .items > .red-dot > .dot {
+        position: sticky;
+        width: 25px;
+        height: 25px;
+        margin-left: -12px;
+        top: 30vh;
+        background: #bf1c22;
+        border-radius: 50%; }
